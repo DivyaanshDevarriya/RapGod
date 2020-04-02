@@ -4,7 +4,7 @@ import time
 
 file = open('songs.txt', 'w')
 
-driver = webdriver.Chrome("/home/divyaansh/Documents/Projects/AppyHigh/mpro_recommendation/scrappers/chromedriver")
+driver = webdriver.Chrome(CHROMEDRIVER_PATH)
 
 songs = ['notafraid', 'beautiful', 'loseyourself', 'rapgod', 'killshot', 'godzilla', 'mockingbird', 'whenimgone', 'venommusicfromthemotionpicture', 'kamikaze', 'singforthemoment', 'tillicollapse', 'neverloveagain', 'youreneverover', 'fall', 'spacebound', 'intoodeep', 'stepdad', 'marsh', 'onfire', 'littleengine']
 
